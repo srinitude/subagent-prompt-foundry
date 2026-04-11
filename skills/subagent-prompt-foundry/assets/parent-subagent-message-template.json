@@ -1,0 +1,22 @@
+{
+  "parent_to_subagent": {
+    "task_summary": "",
+    "goal": "",
+    "constraints": [],
+    "artifacts": [],
+    "allowed_tools": [],
+    "required_output": "",
+    "success_criteria": [],
+    "exclusions": []
+  },
+  "subagent_to_parent": {
+    "task_understanding": "",
+    "assumptions": [],
+    "blocking_questions": [],
+    "output": "",
+    "evidence": [],
+    "uncertainty": [],
+    "confidence": "",
+    "next_step": ""
+  }
+}

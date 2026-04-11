@@ -1,0 +1,6 @@
+{
+  "valid": true,
+  "missing_sections": [],
+  "determinism_score": 0.945,
+  "script_run": "python3 scripts/validate_prompt_shape.py examples/triggers/sample-clearance/prompt.md"
+}

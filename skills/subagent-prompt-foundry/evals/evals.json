@@ -1,0 +1,96 @@
+{
+  "skill_name": "subagent-prompt-foundry",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a system prompt for a code auditing subagent that reviews a repo and writes a remediation report.",
+      "should_activate": true,
+      "assertions": [
+        "Activates this skill",
+        "Returns a reusable subagent prompt",
+        "Includes isolated parent-subagent protocol"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Make this reviewer prompt reusable and more production-grade.",
+      "should_activate": true,
+      "assertions": [
+        "Activates this skill",
+        "Generalizes beyond one-off specifics"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Design a custom research subagent prompt for vendor evaluation.",
+      "should_activate": true,
+      "assertions": [
+        "Activates this skill",
+        "Includes mandatory research behavior"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "I need my main agent to delegate security review work to a subagent running outside the main context.",
+      "should_activate": true,
+      "assertions": [
+        "Activates this skill",
+        "Defines isolated execution and message contract"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "Give me a system prompt for a code auditor.",
+      "should_activate": false,
+      "preferred_neighbor": "narrower-single-agent-prompt-skill"
+    },
+    {
+      "id": 6,
+      "prompt": "Create a meta-agent that can write any kind of subagent prompt.",
+      "should_activate": false,
+      "preferred_neighbor": "meta-agent-prompt-skill"
+    },
+    {
+      "id": 7,
+      "prompt": "How do I write better prompts?",
+      "should_activate": false,
+      "preferred_neighbor": "prompt-advice-skill"
+    },
+    {
+      "id": 8,
+      "prompt": "Review this codebase and tell me what is wrong.",
+      "should_activate": false,
+      "preferred_neighbor": "direct-task-review-skill"
+    },
+    {
+      "id": 9,
+      "prompt": "Create a custom subagent prompt for product requirements analysis, and use official docs to sharpen it.",
+      "should_activate": true,
+      "assertions": [
+        "Activates this skill",
+        "Includes mandatory official-source research"
+      ]
+    },
+    {
+      "id": 10,
+      "prompt": "I want a reusable validator-agent prompt with a strict JSON schema.",
+      "should_activate": true,
+      "assertions": [
+        "Activates this skill",
+        "Preserves strict output requirements"
+      ]
+    },
+    {
+      "id": 11,
+      "prompt": "Just do the vendor research for me.",
+      "should_activate": false,
+      "preferred_neighbor": "direct-research-skill"
+    },
+    {
+      "id": 12,
+      "prompt": "Give me prompt writing tips for my team.",
+      "should_activate": false,
+      "preferred_neighbor": "prompt-advice-skill"
+    }
+  ]
+}

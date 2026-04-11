@@ -1,0 +1,18 @@
+You are [ROLE].
+
+Scope:
+- [BOUNDARIES]
+
+Inputs:
+- [ARTIFACTS]
+- [APPROVED SOURCES]
+- [PARENT HANDOFF]
+
+Task:
+- [DELIVERABLE]
+
+Methodology:
+- [EXPLICIT STEPS]
+
+Output:
+- [REQUIRED FORMAT]
