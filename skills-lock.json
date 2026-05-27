@@ -1,0 +1,16 @@
+{
+  "skills": [
+    {
+      "name": "subagent-prompt-foundry",
+      "version": "0.1.0",
+      "path": "skills/subagent-prompt-foundry",
+      "description": "Generate deterministic, reusable system prompts for custom subagents.",
+      "tags": [
+        "prompt-engineering",
+        "subagents",
+        "multi-agent",
+        "deterministic-prompts"
+      ]
+    }
+  ]
+}

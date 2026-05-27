@@ -2,13 +2,15 @@
 name: subagent-prompt-foundry
 description: >-
   Generate deterministic, reusable system prompts for custom subagents across code, research, design, security, planning, validation, and workflow tasks. Use when the user asks for a system prompt for an agent, wants to make a prompt reusable, needs a production-grade subagent prompt with structure or constraints, or wants a parent agent to delegate work to an isolated subagent. Triggers: "create a custom subagent", "system prompt for an agent", "make this prompt reusable", "design a subagent prompt", "production-grade prompt for a reviewer". Do not use for generic prompt advice, direct task execution, meta-agent prompt creation, or requests that only want the final answer.
-compatibility: Platform-agnostic. Requires Python 3 for bundled scripts and network access for mandatory web research. Subagents run outside the parent agent's primary context window.
 license: MIT
-allowed-tools: "Bash(python:*) WebFetch"
+compatibility: Platform-agnostic. Requires Python 3 for bundled scripts and network access for mandatory web research. Subagents run outside the parent agent's primary context window.
 metadata:
-  author: Kiren Srinivasan
-  version: "0.1.0"
-  tags: [prompt-engineering, subagents, multi-agent, deterministic-prompts]
+  tags:
+    - prompt-engineering
+    - subagents
+    - multi-agent
+    - deterministic-prompts
+allowed-tools: "Bash(python:*) WebFetch"
 ---
 
 # Subagent Prompt Foundry

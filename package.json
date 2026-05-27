@@ -1,0 +1,28 @@
+{
+  "name": "@srinitude/subagent-prompt-foundry",
+  "version": "0.1.0",
+  "description": "Generate deterministic, reusable system prompts for custom subagents.",
+  "license": "MIT",
+  "author": "Kiren Srinivasan <kiren@fantasymetals.com>",
+  "homepage": "https://github.com/srinitude/subagent-prompt-foundry#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srinitude/subagent-prompt-foundry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/srinitude/subagent-prompt-foundry/issues"
+  },
+  "keywords": [
+    "agent-skill",
+    "skills.sh",
+    "subagents",
+    "prompt-engineering",
+    "multi-agent"
+  ],
+  "files": [
+    "skills/",
+    "skills-lock.json",
+    "LICENSE",
+    "README.md"
+  ]
+}

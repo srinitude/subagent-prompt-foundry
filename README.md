@@ -1,5 +1,7 @@
 # Subagent Prompt Foundry
 
+[![skills.sh](https://skills.sh/b/srinitude/subagent-prompt-foundry)](https://skills.sh/s/srinitude/subagent-prompt-foundry)
+
 A skill that generates deterministic, production-grade system prompts for custom subagents.
 
 ## What It Does
